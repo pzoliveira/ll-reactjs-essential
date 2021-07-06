@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-    <App />
+  <>
+    <App authorized={false} />
+  </>
   ,
   document.getElementById('root')
 );
